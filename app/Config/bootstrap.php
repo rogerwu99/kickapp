@@ -179,6 +179,6 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
-define('CLIENT_ID','184322081700245');
-define('CLIENT_SECRET','9f34a3d3e38b042f4cfe748f96d730cf');
+define('CLIENT_ID','464106916955202');
+define('CLIENT_SECRET','fb8a1d7c4c770f571b5519846702c378');
 define('ROOT_URL','http://localhost:8888');
