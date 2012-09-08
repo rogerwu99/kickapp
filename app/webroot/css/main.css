@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.rate_widget {  
+    border:     0px solid #CCC;  
+    overflow:   visible;  
+    padding:    2px;  
+    position:   relative;  
+    width:      180px;  
+    height:     32px;  
+}  
+.ratings_stars {  
+    background: url('/img/star_empty.png') no-repeat;  
+    float:      left;  
+    height:     28px;  
+    padding:    1px;  
+    width:      32px;  
+}  
+.ratings_vote {  
+    background: url('/img/star_full.png') no-repeat;  
+}  
+.ratings_over {  
+    background: url('/img/star_highlight.png') no-repeat;  
+}  
+.total_votes {  
+    top: 10px;  
+    left: 170px;
+	width: 180px;  
+    padding-left:10px;
+	position:   absolute;   
+	font-size: 10px;
+	font-style:italic; 
+}
+.label_anchor{
+	text-decoration: none;
+	color: #fff;
+}
