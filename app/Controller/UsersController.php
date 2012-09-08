@@ -9,7 +9,10 @@ class UsersController extends AppController {
 	var $components = array('Auth','Email');
 	var $uses = array('User');
 	public function index(){
-		$this->redirect(array('controller'=>'applications','action'=>'index'));
+		//$this->redirect(array('controller'=>'applications','action'=>'index'));
+			$user = $this->Session->read('user');
+	//	var_dump($user);
+		$this->set('fb_id',$user['User']['fb_uid']);
 	}
 	
     private function createClient() {

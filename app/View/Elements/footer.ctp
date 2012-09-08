@@ -3,7 +3,7 @@
     <div class="container-fluid">
     	<div class="pull-right">
        <ul class="nav">
-    	<li class="active">  <a href="/users/contact" >(c) 2012 Pinterest Applications</a>	</li>          
+    	<li class="active">  <a href="/users/contact" >(c) 2012 Ballzapp</a>	</li>          
        </ul>
        </div>
 	</div>

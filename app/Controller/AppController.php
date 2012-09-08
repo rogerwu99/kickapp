@@ -35,7 +35,7 @@ class AppController extends Controller {
 	var $components = array('Auth','Session');
 	var $uses = array('User');
 	function  beforeFilter() {
-        $this->Auth->allow('index','login','fb_login','callback','logout','show','category','contact','get_app','view','click','search');
+        $this->Auth->allow('index','login','fb_login','callback','logout','show','category','contact','get_app','view','click','search','home');
 		$user = NULL;
 		if (!$this->Session->check('user') && $this->Auth->loggedIn()){
 			$user_id = $this->Auth->user('id');
@@ -47,6 +47,6 @@ class AppController extends Controller {
 		}
 	//	var_dump($user);
 		$this->set('user', $user);
-		$this->set('title_for_layout','Pinterest Applications');
+		$this->set('title_for_layout','Ballzapp');
 	}
 }

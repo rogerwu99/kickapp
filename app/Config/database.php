@@ -63,9 +63,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'pinapps',
-		'password' => 'p1n4pps',
-		'database' => 'pinterest_applications',
+		'login' => 'ballzapp',
+		'password' => 'ballzapp',
+		'database' => 'ballzapp',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

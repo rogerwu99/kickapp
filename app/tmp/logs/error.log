@@ -15791,3 +15791,113 @@
 2012-08-20 21:58:01 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 /Applications/MAMP/pinterest-applications/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-09-08 17:34:38 Error: [MissingControllerException] Controller class ApplicationsController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/kickapp/index.php(42): require('/Applications/M...')
+#2 {main}
+2012-09-08 17:35:45 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/kickapp/index.php(42): require('/Applications/M...')
+#2 {main}
+2012-09-08 17:44:20 Error: [MissingActionException] Action PagesController::home() could not be found.
+#0 /Applications/MAMP/kickapp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/kickapp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-08 17:47:01 Error: [MissingViewException] View file "/Applications/MAMP/kickapp/app/View/Users/index.ctp" is missing.
+#0 /Applications/MAMP/kickapp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/kickapp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /Applications/MAMP/kickapp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/kickapp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-08 17:51:13 Error: [MissingControllerException] Controller class Mitt3.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:13 Error: [MissingControllerException] Controller class FaceMask.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:13 Error: [MissingControllerException] Controller class Obama1.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:13 Error: [MissingControllerException] Controller class Obama2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:13 Error: [MissingControllerException] Controller class Mitt2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:33 Error: [MissingControllerException] Controller class Mitt3.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:33 Error: [MissingControllerException] Controller class Obama1.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:33 Error: [MissingControllerException] Controller class Mitt2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:33 Error: [MissingControllerException] Controller class Obama2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:33 Error: [MissingControllerException] Controller class FaceMask.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:57 Error: [MissingControllerException] Controller class Obama1.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:57 Error: [MissingControllerException] Controller class Mitt2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:57 Error: [MissingControllerException] Controller class FaceMask.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:57 Error: [MissingControllerException] Controller class Obama2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:51:57 Error: [MissingControllerException] Controller class Mitt3.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:52:42 Error: [MissingControllerException] Controller class Obama1.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:52:42 Error: [MissingControllerException] Controller class Mitt2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:52:42 Error: [MissingControllerException] Controller class Obama2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:52:42 Error: [MissingControllerException] Controller class Mitt3.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:52:42 Error: [MissingControllerException] Controller class FaceMask.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:53:15 Error: [MissingControllerException] Controller class Obama1.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:53:15 Error: [MissingControllerException] Controller class Mitt3.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:53:15 Error: [MissingControllerException] Controller class Obama2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:53:15 Error: [MissingControllerException] Controller class Mitt2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:53:15 Error: [MissingControllerException] Controller class FaceMask.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:54:44 Error: [MissingControllerException] Controller class Mitt3.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:54:44 Error: [MissingControllerException] Controller class Obama2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:54:44 Error: [MissingControllerException] Controller class Obama1.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:54:44 Error: [MissingControllerException] Controller class Mitt2.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-08 17:54:44 Error: [MissingControllerException] Controller class FaceMask.pngController could not be found.
+#0 /Applications/MAMP/kickapp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
