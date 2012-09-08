@@ -58,17 +58,26 @@
  * For MySQL to connect via socket specify the `unix_socket` parameter instead of `host` and `port`
  */
 class DATABASE_CONFIG {
+	public $default = null;
 
-	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'pinapps',
-		'password' => 'p1n4pps',
-		'database' => 'pinterest_applications',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);
+	public function __construct() {
+		if($_SERVER['SERVER_ADDR'] == "127.0.0.1" || $_SERVER['SERVER_ADDR'] == "::1")
+			$env = '{"mysql-5.1":[{"credentials":{"name":"giftfinder_meta","hostname":"localhost","port":3306,"username":"gf_meta","password":"g1ftf1nd3r"}}]}';
+		else
+			$env = $_SERVER['VCAP_SERVICES'];
+		$services_json = json_decode($env,true);
+		$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
+
+		$this->default['datasource'] = 'Database/Mysql';
+		$this->default['persistent'] = false;
+		$this->default['host'] = $mysql_config["hostname"];
+		$this->default['login'] = $mysql_config["username"];
+		$this->default['password'] = $mysql_config["password"];
+		$this->default['database'] = $mysql_config["name"];
+		$this->default['port'] = $mysql_config["port"];
+		$this->default['prefix'] = '';
+
+	}
 
 	public $test = array(
 		'datasource' => 'Database/Mysql',
